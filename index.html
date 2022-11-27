@@ -17,12 +17,12 @@
     <title>Facebook</title>
   </head>
   <body>
-    <nav class="navbar bg-dark px-4">
+    <nav class="navbar bg-dark px-4" style="box-sizing: border-box">
       <div class="d-flex">
         <img
           src="https://www.maryville.edu/wp-content/uploads/2022/09/Facebook-logo.png"
           alt="facebook logo"
-          class="rounded-circle "
+          class="rounded-circle"
           height="38px"
         />
         <form action="">
@@ -56,7 +56,7 @@
     </nav>
     <main>
       <div class="row">
-        <div class="col">
+        <div class="col d-flex">
           <div class="left p-3 col-3">
             <div class="namePic d-flex mb-4">
               <img
@@ -67,33 +67,118 @@
               />
               <h3>Genics</h3>
             </div>
-            <div class="covid d-flex mb-4 " style="font-size:30px ;">
-                <i class="bi-plus me-4"></i>
-                <h3>Covid-19 information center</h3>
+            <div class="covid d-flex mb-4" style="font-size: 30px">
+              <i class="bi-plus me-4"></i>
+              <h3>Covid-19 information center</h3>
             </div>
-            <div class="pages d-flex mb-4 " style="font-size:30px ;">
-                <i class="bi-flag me-4"></i>
-                <h3>Pages</h3>
+            <div class="pages d-flex mb-4" style="font-size: 30px">
+              <i class="bi-flag me-4"></i>
+              <h3>Pages</h3>
             </div>
-            <div class="people d-flex mb-4 " style="font-size:30px ;">
-                <i class="bi-people me-4"></i>
-                <h3>People</h3>
+            <div class="people d-flex mb-4" style="font-size: 30px">
+              <i class="bi-people me-4"></i>
+              <h3>People</h3>
             </div>
-            <div class="Messages d-flex mb-4 " style="font-size:30px ;">
-                <i class="bi-chat me-4"></i>
-                <h3>Messages</h3>
+            <div class="Messages d-flex mb-4" style="font-size: 30px">
+              <i class="bi-chat me-4"></i>
+              <h3>Messages</h3>
             </div>
-            <div class="Marketplace d-flex mb-4 " style="font-size:30px ;">
-                <i class="bi-shop me-4"></i>
-                <h3>Marketplace</h3>
+            <div class="Marketplace d-flex mb-4" style="font-size: 30px">
+              <i class="bi-shop me-4"></i>
+              <h3>Marketplace</h3>
             </div>
-            <div class="videos d-flex mb-4 " style="font-size:30px ;">
-                <i class="bi-play me-4"></i>
-                <h3>Videos</h3>
+            <div class="videos d-flex mb-4" style="font-size: 30px">
+              <i class="bi-play me-4"></i>
+              <h3>Videos</h3>
             </div>
           </div>
-          <div class="middle col-6"></div>
-          <div class="right col-3"></div>
+          <div class="middle col-6 p-3">
+            <div class="reels d-flex gap-2 mb-4">
+              <div
+                class="card shadow"
+                style="height: 225px; width: 25%; overflow: hidden"
+              >
+                <img
+                  src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8cmFuZG9tJTIwcGVvcGxlfGVufDB8fDB8fA%3D%3D&w=1000&q=80"
+                  alt=""
+                />
+              </div>
+              <div
+                class="card shadow"
+                style="height: 225px; width: 25%; overflow: hidden"
+              >
+                <img
+                  src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8cmFuZG9tJTIwcGVvcGxlfGVufDB8fDB8fA%3D%3D&w=1000&q=80"
+                  alt=""
+                />
+              </div>
+              <div
+                class="card shadow"
+                style="height: 225px; width: 25%; overflow: hidden"
+              >
+                <img
+                  src="https://static.boredpanda.com/blog/wp-content/uploads/2017/04/Virrappan2-58f79980ae6fb__880.jpg"
+                  alt=""
+                />
+              </div>
+              <div
+                class="card shadow"
+                style="height: 225px; width: 25%; overflow: hidden"
+              >
+                <img
+                  src="https://mir-s3-cdn-cf.behance.net/project_modules/1400/e98f2535036667.58bc6981515a3.jpg"
+                  alt=""
+                />
+              </div>
+            </div>
+            <div class="card shadow p-4 post bg-light" style="height: 150px">
+              <div class="top d-flex gap-2 align-items-center">
+                <img
+                  src="https://preview.redd.it/25biwnli1r961.jpg?auto=webp&s=5df47e1a470b3596a5d29e7b79b488271f592767"
+                  alt="facebook logo"
+                  class="rounded-circle"
+                  height="38px"
+                />
+                <form action="">
+                  <input
+                    type="text"
+                    placeholder="What's on your mind??"
+                    class="form-controller "
+                    style="width: 100%;"
+                  />
+                </form>
+              </div>
+              <div>
+                <hr>
+              </div>
+              <div class="bottom d-flex justify-content-between">
+                <div class="liveVideo d-flex gap-2 align-items-space-between">
+                    <i class="bi-camera" style="color: red;"></i>
+                    <p>live Video</p>
+                </div>
+                <div class="gallery d-flex gap-2">
+                    <i class="bi-images" style="color: green;"></i>
+                    <p>Gallery</p>
+                </div>
+                <div class="feeling d-flex gap-2">
+                    <i class="bi-emoji-smile" style="color: orange;"></i>
+                    <p>Feeling</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="right col-3 p-3">
+            <iframe
+              src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fweb.facebook.com%2FItsfootball9%2Fposts%2Fpfbid02Ei74uCP46EViUhmZ9dSzZKmkw15muBJiNNeUqHaDUCJ7wntV2SXETfRYd9b76hA1l&show_text=true&width=500"
+              width="100%"
+              height="654"
+              style="border: none; overflow: hidden"
+              scrolling="no"
+              frameborder="0"
+              allowfullscreen="true"
+              allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
+            ></iframe>
+          </div>
         </div>
       </div>
     </main>
